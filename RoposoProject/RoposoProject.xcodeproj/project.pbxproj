@@ -12,6 +12,11 @@
 		CB1BDBE21D8EF00700C66907 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBDD1D8EF00700C66907 /* data.json */; };
 		CB1BDBE31D8EF00700C66907 /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBDF1D8EF00700C66907 /* StoryData.swift */; };
 		CB1BDBE41D8EF00700C66907 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBE01D8EF00700C66907 /* UserData.swift */; };
+		CB1BDBEB1D8EF0C800C66907 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBE61D8EF0C800C66907 /* BaseTableViewCell.swift */; };
+		CB1BDBEC1D8EF0C800C66907 /* StoryCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBE71D8EF0C800C66907 /* StoryCardTableViewCell.swift */; };
+		CB1BDBED1D8EF0C800C66907 /* StoryCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBE81D8EF0C800C66907 /* StoryCardTableViewCell.xib */; };
+		CB1BDBEE1D8EF0C800C66907 /* StoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBE91D8EF0C800C66907 /* StoryDetailTableViewCell.swift */; };
+		CB1BDBEF1D8EF0C800C66907 /* StoryDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBEA1D8EF0C800C66907 /* StoryDetailTableViewCell.xib */; };
 		CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */; };
 		CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */; };
 		CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776D1D8EEDBA007BF395 /* LaunchScreen.storyboard */; };
@@ -24,6 +29,11 @@
 		CB1BDBDD1D8EF00700C66907 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CB1BDBDF1D8EF00700C66907 /* StoryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
 		CB1BDBE01D8EF00700C66907 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CB1BDBE61D8EF0C800C66907 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CB1BDBE71D8EF0C800C66907 /* StoryCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryCardTableViewCell.swift; sourceTree = "<group>"; };
+		CB1BDBE81D8EF0C800C66907 /* StoryCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryCardTableViewCell.xib; sourceTree = "<group>"; };
+		CB1BDBE91D8EF0C800C66907 /* StoryDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		CB1BDBEA1D8EF0C800C66907 /* StoryDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailTableViewCell.xib; sourceTree = "<group>"; };
 		CBDB77611D8EEDBA007BF395 /* RoposoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +89,18 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
+		CB1BDBE51D8EF0C800C66907 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BDBE61D8EF0C800C66907 /* BaseTableViewCell.swift */,
+				CB1BDBE71D8EF0C800C66907 /* StoryCardTableViewCell.swift */,
+				CB1BDBE81D8EF0C800C66907 /* StoryCardTableViewCell.xib */,
+				CB1BDBE91D8EF0C800C66907 /* StoryDetailTableViewCell.swift */,
+				CB1BDBEA1D8EF0C800C66907 /* StoryDetailTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		CBDB77581D8EEDBA007BF395 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +122,7 @@
 		CBDB77631D8EEDBA007BF395 /* RoposoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB1BDBE51D8EF0C800C66907 /* TableViewCells */,
 				CB1BDBDB1D8EF00700C66907 /* Helper */,
 				CB1BDBDE1D8EF00700C66907 /* Modal */,
 				CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */,
@@ -173,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */,
+				CB1BDBEF1D8EF0C800C66907 /* StoryDetailTableViewCell.xib in Resources */,
+				CB1BDBED1D8EF0C800C66907 /* StoryCardTableViewCell.xib in Resources */,
 				CB1BDBE21D8EF00700C66907 /* data.json in Resources */,
 				CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */,
 			);
@@ -233,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1BDBEE1D8EF0C800C66907 /* StoryDetailTableViewCell.swift in Sources */,
 				CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */,
+				CB1BDBEC1D8EF0C800C66907 /* StoryCardTableViewCell.swift in Sources */,
 				CB1BDBE11D8EF00700C66907 /* CommonMethod.swift in Sources */,
 				CB1BDBE41D8EF00700C66907 /* UserData.swift in Sources */,
+				CB1BDBEB1D8EF0C800C66907 /* BaseTableViewCell.swift in Sources */,
 				CB1BDBE31D8EF00700C66907 /* StoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
