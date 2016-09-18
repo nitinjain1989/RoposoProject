@@ -17,6 +17,10 @@
 		CB1BDBED1D8EF0C800C66907 /* StoryCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBE81D8EF0C800C66907 /* StoryCardTableViewCell.xib */; };
 		CB1BDBEE1D8EF0C800C66907 /* StoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBE91D8EF0C800C66907 /* StoryDetailTableViewCell.swift */; };
 		CB1BDBEF1D8EF0C800C66907 /* StoryDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBEA1D8EF0C800C66907 /* StoryDetailTableViewCell.xib */; };
+		CB1BDBF71D8EF14C00C66907 /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBF21D8EF14C00C66907 /* StoryDetailViewController.swift */; };
+		CB1BDBF81D8EF14C00C66907 /* StoryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBF31D8EF14C00C66907 /* StoryDetailViewController.xib */; };
+		CB1BDBF91D8EF14C00C66907 /* StoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1BDBF51D8EF14C00C66907 /* StoryListViewController.swift */; };
+		CB1BDBFA1D8EF14C00C66907 /* StoryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1BDBF61D8EF14C00C66907 /* StoryListViewController.xib */; };
 		CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */; };
 		CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */; };
 		CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776D1D8EEDBA007BF395 /* LaunchScreen.storyboard */; };
@@ -34,6 +38,10 @@
 		CB1BDBE81D8EF0C800C66907 /* StoryCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryCardTableViewCell.xib; sourceTree = "<group>"; };
 		CB1BDBE91D8EF0C800C66907 /* StoryDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailTableViewCell.swift; sourceTree = "<group>"; };
 		CB1BDBEA1D8EF0C800C66907 /* StoryDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailTableViewCell.xib; sourceTree = "<group>"; };
+		CB1BDBF21D8EF14C00C66907 /* StoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		CB1BDBF31D8EF14C00C66907 /* StoryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryDetailViewController.xib; sourceTree = "<group>"; };
+		CB1BDBF51D8EF14C00C66907 /* StoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryListViewController.swift; sourceTree = "<group>"; };
+		CB1BDBF61D8EF14C00C66907 /* StoryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryListViewController.xib; sourceTree = "<group>"; };
 		CBDB77611D8EEDBA007BF395 /* RoposoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +109,33 @@
 			path = TableViewCells;
 			sourceTree = "<group>";
 		};
+		CB1BDBF01D8EF14C00C66907 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BDBF11D8EF14C00C66907 /* StoryDetailViewController */,
+				CB1BDBF41D8EF14C00C66907 /* StoryListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB1BDBF11D8EF14C00C66907 /* StoryDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BDBF21D8EF14C00C66907 /* StoryDetailViewController.swift */,
+				CB1BDBF31D8EF14C00C66907 /* StoryDetailViewController.xib */,
+			);
+			path = StoryDetailViewController;
+			sourceTree = "<group>";
+		};
+		CB1BDBF41D8EF14C00C66907 /* StoryListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB1BDBF51D8EF14C00C66907 /* StoryListViewController.swift */,
+				CB1BDBF61D8EF14C00C66907 /* StoryListViewController.xib */,
+			);
+			path = StoryListViewController;
+			sourceTree = "<group>";
+		};
 		CBDB77581D8EEDBA007BF395 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +157,7 @@
 		CBDB77631D8EEDBA007BF395 /* RoposoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB1BDBF01D8EF14C00C66907 /* ViewControllers */,
 				CB1BDBE51D8EF0C800C66907 /* TableViewCells */,
 				CB1BDBDB1D8EF00700C66907 /* Helper */,
 				CB1BDBDE1D8EF00700C66907 /* Modal */,
@@ -196,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */,
+				CB1BDBF81D8EF14C00C66907 /* StoryDetailViewController.xib in Resources */,
 				CB1BDBEF1D8EF0C800C66907 /* StoryDetailTableViewCell.xib in Resources */,
 				CB1BDBED1D8EF0C800C66907 /* StoryCardTableViewCell.xib in Resources */,
 				CB1BDBE21D8EF00700C66907 /* data.json in Resources */,
+				CB1BDBFA1D8EF14C00C66907 /* StoryListViewController.xib in Resources */,
 				CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +300,9 @@
 				CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */,
 				CB1BDBEC1D8EF0C800C66907 /* StoryCardTableViewCell.swift in Sources */,
 				CB1BDBE11D8EF00700C66907 /* CommonMethod.swift in Sources */,
+				CB1BDBF91D8EF14C00C66907 /* StoryListViewController.swift in Sources */,
 				CB1BDBE41D8EF00700C66907 /* UserData.swift in Sources */,
+				CB1BDBF71D8EF14C00C66907 /* StoryDetailViewController.swift in Sources */,
 				CB1BDBEB1D8EF0C800C66907 /* BaseTableViewCell.swift in Sources */,
 				CB1BDBE31D8EF00700C66907 /* StoryData.swift in Sources */,
 			);

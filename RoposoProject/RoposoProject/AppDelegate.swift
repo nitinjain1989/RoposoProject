@@ -12,10 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigatonVC:UINavigationController?
 
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
+    {
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let storyListVC = StoryListViewController(nibName: "StoryListViewController", bundle: nil)
+        self.navigatonVC = UINavigationController(rootViewController: storyListVC)
+        self.window!.rootViewController = self.navigatonVC
+        self.window!.backgroundColor = UIColor.white
+        self.window!.makeKeyAndVisible()
         return true
     }
 
