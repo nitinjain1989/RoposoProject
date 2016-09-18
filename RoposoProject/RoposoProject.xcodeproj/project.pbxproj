@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */; };
-		CBDB77671D8EEDBA007BF395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDB77661D8EEDBA007BF395 /* ViewController.swift */; };
-		CBDB776A1D8EEDBA007BF395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDB77681D8EEDBA007BF395 /* Main.storyboard */; };
 		CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */; };
 		CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDB776D1D8EEDBA007BF395 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -17,8 +15,6 @@
 /* Begin PBXFileReference section */
 		CBDB77611D8EEDBA007BF395 /* RoposoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBDB77661D8EEDBA007BF395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBDB77691D8EEDBA007BF395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBDB776E1D8EEDBA007BF395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBDB77701D8EEDBA007BF395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				CBDB77641D8EEDBA007BF395 /* AppDelegate.swift */,
-				CBDB77661D8EEDBA007BF395 /* ViewController.swift */,
-				CBDB77681D8EEDBA007BF395 /* Main.storyboard */,
 				CBDB776B1D8EEDBA007BF395 /* Assets.xcassets */,
 				CBDB776D1D8EEDBA007BF395 /* LaunchScreen.storyboard */,
 				CBDB77701D8EEDBA007BF395 /* Info.plist */,
@@ -125,7 +119,6 @@
 			files = (
 				CBDB776F1D8EEDBA007BF395 /* LaunchScreen.storyboard in Resources */,
 				CBDB776C1D8EEDBA007BF395 /* Assets.xcassets in Resources */,
-				CBDB776A1D8EEDBA007BF395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBDB77671D8EEDBA007BF395 /* ViewController.swift in Sources */,
 				CBDB77651D8EEDBA007BF395 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +136,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBDB77681D8EEDBA007BF395 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBDB77691D8EEDBA007BF395 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBDB776D1D8EEDBA007BF395 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
