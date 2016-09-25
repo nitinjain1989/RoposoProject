@@ -17,7 +17,7 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 .DS_Store
-Test.txt
+test.txt
 ## Other
 *.moved-aside
 *.xcuserstate
